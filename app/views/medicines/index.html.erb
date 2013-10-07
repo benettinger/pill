@@ -1,0 +1,4 @@
+<h1>All Posts</h1>
+<% @medicines.each do |medicine| %>
+  <p><%= link_to medicine.name, medicine  %></p>
+<% end %>
