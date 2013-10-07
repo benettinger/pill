@@ -4,6 +4,7 @@ class MedicinesController < ApplicationController
   end
 
   def show
+    @medicine = Medicine.find(params[:id])
   end
 
   def new
